@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(46, 44, 44);
+    background-repeat: no-repeat;
+
+    font-family: system-ui;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   
+    
+}
+form legend {
+    color: aliceblue;
+;
+}
+#title{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(17, 17, 17);
+    color:rgb(197, 192, 192) ;
+    border-radius: 10px;
+    border:solid black 1px ;
+}
+section input{
+    width: 20%;
+    
+    padding: 8px;
+    background-color: rgb(17, 17, 17);
+    color:rgb(197, 192, 192) ;
+    border-radius: 5px;
+    border:solid black 1px ;
+    margin-right: 10px;
+    
+}
+section span{
+    background-color:rgb(230, 80, 80);
+    color: aliceblue;
+    font-size: large;
+    margin-right: 5%;
+    border: 2px solid rgb(230, 80, 80);
+    border-radius: 4px;
+}
+section span::before{
+    content:'TOTAL: ' ;
+}
+
+#count{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(17, 17, 17);
+    color:rgb(197, 192, 192) ;
+    border-radius: 10px;
+    border:solid black 1px ;
+}
+#category{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(17, 17, 17);
+    color:rgb(197, 192, 192) ;
+    border-radius: 10px;
+    border:solid black 1px ;
+}
+ #create{
+
+
+ padding: 3px;
+ border-radius: 30px;
+ background-color: rgb(8, 8, 107);
+ color: aliceblue;
+ margin: 5px;
+ border: 1px solid  rgb(8, 8, 107) ;
+ transition: 1s;
+}
+#create:hover{
+    background-color:rgb(12, 12, 145); 
+    color: white;
+   
+    cursor: pointer;
+   
+
+}
+#search{
+     padding: 10px;
+    margin: 5px;
+    background-color: rgb(17, 17, 17);
+    color:rgb(197, 192, 192) ;
+    border-radius: 10px;
+    border:solid black 1px ;
+}
+section button{
+    padding: 3px;
+ border-radius: 30px;
+ background-color: rgb(8, 8, 107);
+ color: aliceblue;
+ margin: 5px;
+ border: 1px solid  rgb(8, 8, 107) ;
+ transition: 1s;
+ width: 45%;
+
+}
+section button:hover{
+      background-color:rgb(12, 12, 145); 
+    color: white;
+    ;
+    cursor: pointer;
+   
+}
+#Deletebtn{
+
+    
+ padding: 3px;
+ border-radius: 30px;
+ background-color: rgb(8, 8, 107);
+ color: aliceblue;
+ margin: 5px;
+ border: 1px solid  rgb(8, 8, 107) ;
+ display:none;
+ transition: 1s;
+
+}
+#Deletebtn:hover{   
+     background-color:rgb(12, 12, 145); 
+
+    color: white;
+ 
+    cursor: pointer;
+
+}
+table{
+width: 100%;
+text-align: center;
+font-size: x-large;
+color: rgba(231, 234, 238, 0.658);
+
+    
+}
+table tr{
+    border-top:1px rgba(168, 157, 157, 0.699) solid ;
+    
+    border-bottom:1px rgba(168, 157, 157, 0.699) solid ;
+
+    
+}
+table th {
+padding: 5px;
+}
+table td{
+    padding: 5px;
+
+}
+table td button{
+ 
+padding: 3px;
+ border-radius: 30px;
+ background-color: rgb(8, 8, 107);
+ color: aliceblue;
+width: 90%;
+ border: 1px solid  rgb(8, 8, 107) ;
+ transition: 1s;
+}
+table td button:hover{
+      background-color:rgb(12, 12, 145); 
+
+    color: white;
+ 
+    cursor: pointer;
+     
+}
+ @media (max-width: 1200px) {
+
+    table{
+   font-size: 11px;
+   
+    }
+    section span{
+       font-size: medium;
+    }
+
+}
